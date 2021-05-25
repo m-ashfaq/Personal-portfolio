@@ -1,0 +1,12 @@
+.about {
+  flex-grow: 1;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+  padding: 50px;
+}
+.about p {
+  text-align: justify;
+  text-justify: inter-word;
+}

@@ -1,0 +1,31 @@
+.contact-info {
+  flex-grow: 1;
+}
+
+.contact-info h1 {
+  margin-bottom: 20px;
+  padding: 50px;
+}
+.contact-info {
+  margin: 1rem 0;
+}
+.form-control {
+  width: 100%;
+  border: gray;
+  border-bottom: 1px solid var(--grey);
+  padding: 1rem 0.6rem;
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin: 0.3rem;
+  outline: none;
+}
+.form-group {
+  display: flex;
+}
+.btn.contact-btn {
+  width: 100%;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  padding: 1rem 0;
+  margin-bottom: 50px;
+}
