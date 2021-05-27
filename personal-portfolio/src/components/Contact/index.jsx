@@ -10,23 +10,23 @@ const About = () => {
     </div>
     
     <form className = "contact-form">
+    <form action="mailto:muhammad_ashfaq@live.com" method="POST"/>
 <div className = "form-group">
-        <input type = "text" class = "form-control" placeholder="Full name"></input>
+        <input type = "text" className = "form-control" placeholder="Full Name"></input>
         </div>
         <div>
-        <input type = "email" class = "form-control" placeholder="Email address"></input>
+        <input type = "email" className = "form-control" placeholder="Email Address"></input>
     </div>
-        <input type = "text" class = "form-control" placeholder="Subject"></input>
-        <textarea rows = "5" class = "form-control" placeholder="Message"></textarea>
-        <input type = "submit" class = "btn contact-btn" value = "Send Message"></input>
+        <input type = "text" className = "form-control" placeholder="Subject"></input>
+        <textarea rows = "5" className = "form-control" placeholder="Message"></textarea>
+        <input type = "submit" className = "btn contact-btn" value = "Send Message"></input>
     </form>
 
     <div className = "contact-details">
       <h4>Phone</h4>
       <p>0466 775 855</p>
 
-      <h4>Email</h4>
-      <p>muhammad_ashfaq@live.com</p>
+
       </div>
     </div>
   );

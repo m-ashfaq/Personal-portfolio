@@ -8,24 +8,24 @@
 }
 .contact-info {
   margin: 1rem 0;
+  box-sizing: border-box;
 }
-.form-control {
+.contact-form .form-control {
   width: 100%;
-  border: gray;
-  border-bottom: 1px solid var(--grey);
   padding: 1rem 0.6rem;
   font-size: 0.95rem;
   opacity: 0.8;
   margin: 0.3rem;
-  outline: none;
+  border: 2px solid gray;
 }
 .form-group {
   display: flex;
 }
-.btn.contact-btn {
+.contact-form .btn.contact-btn {
   width: 100%;
   margin-top: 0.5rem;
   font-weight: 600;
   padding: 1rem 0;
   margin-bottom: 50px;
+  cursor: pointer;
 }

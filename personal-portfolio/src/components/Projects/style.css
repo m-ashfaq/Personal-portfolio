@@ -1,9 +1,26 @@
-.works {
+.projects {
   flex-grow: 1;
 }
 
-.works h1 {
+.projects h1 {
   margin-bottom: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
+  font-size: 4pc;
+}
+.projects h2 {
+  text-align: left;
+  top: 18px;
+  left: 10px;
+  padding: 30px;
+}
+.project-item img {
+  width: 100%;
+  padding: 20px;
+  display: inline;
+  cursor: pointer;
+  float: left;
+  max-width: 29rem;
+  width: 350px;
+  height: 350px;
 }
